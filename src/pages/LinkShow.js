@@ -26,10 +26,10 @@ const LinkShow = ()=>{
     return  (
 <div>
     <h1> Link Show Page </h1>
-    {JSON.stringify(link)}
+    <h4>{JSON.stringify(link)}</h4>
     <br/>
     <br/>
-    <button onClick={()=>setEditing(true)}>Edit</button>
+    <button onClick={()=>setEditing(true)}>Edit Post</button>
     <br/>
     <br/>
     <button> <ReactRouterLink to='/'>Back</ReactRouterLink></button>
