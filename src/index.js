@@ -22,9 +22,9 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Links />} />
-          <Route path = '/links/id:' element={<LinkShow />} />
+          <Route path = '/links/:id' element={<LinkShow />} />
           <Route path = '/links/new_form' element={<LinkForm/>} />
-          <Route path = '/links/id:/edit' element={<LinkForm/>} />
+          <Route path = '/links/:id/edit' element={<LinkForm/>} />
 
 
 
